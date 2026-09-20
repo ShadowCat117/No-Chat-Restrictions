@@ -12,8 +12,8 @@ import com.mojang.authlib.exceptions.AuthenticationException;
 import com.mojang.authlib.minecraft.TelemetrySession;
 import com.mojang.authlib.minecraft.UserApiService;
 import com.mojang.authlib.minecraft.report.AbuseReportLimits;
-import com.mojang.authlib.yggdrasil.request.AbuseReportRequest;
-import com.mojang.authlib.yggdrasil.response.KeyPairResponse;
+import com.mojang.authlib.services.request.AbuseReportRequest;
+import com.mojang.authlib.services.response.KeyPairResponse;
 
 public class WrappedUserApiService implements UserApiService {
     private final UserApiService service;

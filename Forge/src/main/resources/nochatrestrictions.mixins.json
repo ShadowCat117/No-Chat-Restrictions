@@ -6,7 +6,7 @@
   "mixins": [],
   "client": [
 	"MixinMinecraft",
-	"MixinYggdrasilUserApiService"
+	"MixinMinecraftServicesUserApiService"
   ],
   "injectors": {
     "defaultRequire": 1
